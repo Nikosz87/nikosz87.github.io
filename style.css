@@ -1,81 +1,85 @@
-h1 {
-color: rgb(235, 107, 107);
-}
-.container {
-  width: 600px;
+body {
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Open Sans';
 }
-.newsletter {
-  color: grey;
-  border: 2px solid #cfcfcf;
-  border-radius: 3px;
-  padding: 10px;
-  padding-bottom: 20px;
+img {
+  width: 1600px;
+  margin-bottom: 50px;
   position: relative;
   
 }
-.newsletter button {
-  background: #3cb878;
+main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+blockquote, header {
+  font-family: 'Abril Fatface';
+}
+.section {
+  font-family: 'Josefin Sans';
+}
+section {
+  font-weight: bold;
+  font-family: 'Merriweather';
+}
+track. {
+  font-family: 'Josefin Sans';
+}
+.caps {
+  text-transform: uppercase;
+}
+#firstparagraph1 {
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+  font-weight: bold; 
+}
+blockquote {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 0;
+  background: #696969;
+  text-align:justify;
+  justify-content: center;
   color: white;
-  border: none;
-  display: block;
-  width: 100%;
-  height: 30px;
+  font-size: 25px;
+}
+  blockquote::before {
+  content: '”';
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+#italic {
+  font-style: italic;  
+}
+h4, h5 {
+  margin: 0;
+}
+.section{
+  margin-top: 10px;
   margin-bottom: 10px;
 }
-.newsletter input#email{
-  display: block;
-  width: 100%;
-  height: 30px;
-  margin-bottom: 4px;
-  border: 1px solid #cfcfcf;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-.newsletter h3{
-  margin-top: 0;
-}
-.newsletter #terms {
+header {
   position: relative;
-  top: 1px;
 }
-.newsletter #closex {
+#myname {
   position: absolute;
-  top: 0;
-  right: 5px;
+  top: 300px;
+  left: 400px;
+  font-size: 30px;
 }
-#questionmark {
-  background: #3cb878;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  color: white;
-  font-size: 70px;
-  text-align: center;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+#Anakin {
+  position: absolute;
+  top: 290px;
+  left: 400px;
+  font-size: 80px;
 }
-.card{
-  flex-grow: 1;
-  background: #3cb878;
-  /* width: 180px; */
-  text-align: center;
-  color: white;
-  padding: 20px 0;
-  box-shadow: 0px 0px 7px 2px grey;
-}
-.card h3{
-  margin-bottom: 0;
-}
-#card-holder {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.card.middle {
-  /*flex-grow: 1.5;*/
+#border {
+  border-top: 3px solid black;
+  padding: 20px;
+  width: 900px;
+  margin-top: 30px;
+  
 }
